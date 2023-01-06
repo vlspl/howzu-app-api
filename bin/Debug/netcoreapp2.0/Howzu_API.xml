@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Howzu_API</name>
+    </assembly>
+    <members>
+        <member name="M:VLS_API.Controllers.AuthController.Signin(VLS_API.Model.Userlogin)">
+            <summary>
+            Sign in API for Howzu App User
+            </summary>
+            <param name="UserName">Mandatory</param>
+            <param name="Password">Mandatory</param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.Signout">
+            <summary>
+            Signout API used to remove device tokan
+            </summary>
+            <param name="UserId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SendOTP(System.Int64)">
+            <summary>
+            Send OTP on entered Mobile number
+            </summary>
+            <param name="Mobile">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SetNewPassword(VLS_API.Model.SetNewPassword)">
+            <summary>
+            Update Password
+            </summary>
+            <param name="model">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.ResetPassword(VLS_API.Model.ResetPassword)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SignUp(VLS_API.Model.UserRegister)">
+            <summary>
+            Signup for HowzU App.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.UpdatePatientToDoctor(VLS_API.Model.UpdatePatientToDoctor)">
+            Added for QuikRegistration by pass
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.UpdateDeviceToken(System.String)">
+            <summary>
+            Add Device Token for FCM Notification
+            </summary>
+            <param name="DeviceToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.VerifiedOTP(Howzu_API.Model.VerifyOTP)">
+            <summary>
+            Verify OTP
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.UpdateRegistrationStatus">
+            <summary>
+            Update Registraion Process
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.TestSuggestToPatient(VLS_API.Model.TestSuggest)">
+            <summary>
+            Add suggested test to patient
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.DoctorMyProfile">
+            <summary>
+            Get Doctor Details By Doctor id
+            </summary>
+            <param name="id">mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AllPatientList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get All Patients List 
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AddPatientToMyList(VLS_API.Model.MyPatientList)">
+            <summary>
+            Add patients in my Patient List, Patient should be "," seprated if we need to add more than 1 Patient
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.UpdateDoctor(Howzu_API.Model.UpdateDoctor)">
+            <summary>
+            Update Doctor Details by doctor id
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.TestSuggestToPatient(VLS_API.Model.TestSuggest)">
+            <summary>
+            Add suggested test to patient
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AddNote(VLS_API.Model.ReportNote)">
+            <summary>
+            Add note on shared report
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.UpdatePatientToDoctor(VLS_API.Model.UpdatePatientToDoctor)">
+            <summary>
+            Update Patient to Doctor 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.SharedReportListforDashboard">
+            <summary>
+            Shared Report List for Doctor Dashboard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.GetSuggestTestlistForDahsboard">
+            <summary>
+            Get Suggest Test list For Doctor Dahsboard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.GetDashboardKPICount">
+            <summary>
+            Get Patient,Report and Suggest Test Count for Doctor Dashboard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EmployeeMyProfile">
+            <summary>
+            Get Employee Details By Employee id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.UpdateEmployee(VLS_API.Model.Employee)">
+            <summary>
+            Update Employee Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EnterPriseLabList(System.Int32,System.Int32)">
+            <summary>
+            Get Lab list by orgnization Id
+            </summary>
+            <param name="OrgId">Mandatory</param>
+            <param name="userId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EnterPriseLabTestList(System.Int32)">
+            <summary>
+            Get EnterPrise Test List
+            </summary>
+            <param name="OrgId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.UploadReport(VLS_API.Model.UploadReport)">
+            <summary>
+            Upload users report.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PatientMyProfile">
+            <summary>
+            Get Patient Details By UserID
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UpdatePatient(Howzu_API.Model.UpdatePatient)">
+            <summary>
+            Update Patient Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyDoctorList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get My  doctor Details
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AllDoctorList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Fetch All Doctor List
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddDoctortoMyDoctorList(VLS_API.Model.MyDoctorList)">
+            <summary>
+            Add doctor in my doctor list, DoctorId should be "," seprated if we need to add more than 1 doctor
+            </summary>
+            <param name="model"> All field Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.RemoveDoctorFormMyDoctorList(VLS_API.Model.MyDoctorList)">
+            <summary>
+            Remove Doctor from My Doctor list. Patient Id and Doctor Id are Mandatory.
+            </summary>
+            <param name="model.PatientId.PatientId">Mandatory</param>
+            <param name="model.DoctorId.DoctorId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MySharedReportDoctorList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get shared report doctor list
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PatientSharedReportList(Howzu_API.Model.PatientSharedReport)">
+            <summary>
+            Get Shared report details by patient id and doctor Id
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UnshreadMyReport(Howzu_API.Model.UnsharedReport)">
+            <summary>
+            Unshared report with doctor by shared report Id
+            </summary>
+            <param name="ReportId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetRecommendationTestDetails(System.Int32)">
+            <summary>
+            Get recommendation test details
+            </summary>
+            <param name="RcomId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetDoctorNote(System.Int32)">
+            <summary>
+            Get Doctor notes on shared report
+            </summary>
+            <param name="ReportId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddSharedReport(VLS_API.Model.SharedReport)">
+            <summary>
+            Shared reports with doctor
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyReportList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get Patient Report List
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyReportDetails(System.Int32)">
+            <summary>
+            Fetch Report Details by Report Id
+            </summary>
+            <param name="ReportId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MySuggestedTest(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get Patient Suggested test list
+            </summary>
+            <param name="pagingparametermode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PaymentHistory">
+            <summary>
+            Get Patient Payment History
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.LifestyleDisorder">
+            <summary>
+            Get Life Style Disorder List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.LifestyleDisorderTestList(System.Int32)">
+            <summary>
+            Get Life style disorder test list
+            </summary>
+            <param name="LifeStyleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyRecentTest">
+            <summary>
+            Get Patient Recent top 5 test 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyHealth">
+            <summary>
+            Get Patient Health Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyHealthAnaylteDetailsByDates(Howzu_API.Model.MyHealthAnaylteDetails)">
+            <summary>
+            Get Patient Analyte details by dates {Date format : 'yyyy-MM-dd'}
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyUpcomingTest">
+            <summary>
+            Get My upcoming test list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.SearchFamilyMember(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Search Howzu User
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddFamilyMember(Howzu_API.Model.FamilyMember)">
+            <summary>
+            Send request to your family member
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.FamilyRelation">
+            <summary>
+            Get list of relation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UserPendingRequest(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get User Pending family request's list
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyFamilyMemberList">
+            <summary>
+            Get User Family Member list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UpdateFamilyRequestStatus(Howzu_API.Model.FamilyRequestStatus)">
+            <summary>
+            Request status should be {Pending/Rejected/Accepted }
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.RegisterFamilyMember(Howzu_API.Model.RegisterFamilyMember)">
+            <summary>
+            Add new family member
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:VLS_API.Controllers.PatientController.VerifiedFamilyMember(Howzu_API.Model.VerifyFamilyMemberRequest)" -->
+        <member name="M:VLS_API.Controllers.PatientController.DeleteFamilyMember(System.Int32)">
+            <summary>
+            Delete family member from user list
+            </summary>
+            <param name="RequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyFamilyMemberReportList(Howzu_API.Model.FamilyMemberreportlist)">
+            <summary>
+            Get Family member report list
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddBloodpressure(Howzu_API.Model.AddBloodPressure)">
+            <summary>
+            Add BloodPressure Exmp.{120/80}
+            </summary>
+            <param name="Bloodpressure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetHealthParameterBloodpressureByDate(Howzu_API.Model.BloodPressureByDate)">
+            <summary>
+            Date Format should be {dd/MM/yyyy (15/04/2021)}
+            </summary>
+            <param name="Date">Date Format should be {dd/MM/yyyy (15/04/2021)}</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetMedicineReminderDetails(Howzu_API.Model.GetMedicineReminderDetails)">
+            <summary>
+            Get Medicine Reminder Details
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.BanerList">
+            <summary>
+            Get baner list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AllCovidQuestionsList(System.Int32)">
+            <summary>
+            Ger Surway question list
+            </summary>
+            <param name="SurwayId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AddSurwayReport(VLS_API.Model.Surway)">
+            <summary>
+            Add surway details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AddBMIReport(VLS_API.Model.BMIReport)">
+            <summary>
+            Add BMI Report
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.GetBMIDetails">
+            <summary>
+            Get BMI Details by UserId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.PushNotifications(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            get User notification list
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.UnreadNotificationCountData">
+            <summary>
+            Get unread Notification  count
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.ReadNotification">
+            <summary>
+            Update notification seen status
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.MyAppointments(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get users Appointments list
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.UserMyTest">
+            <summary>
+            Get User Test list history
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.LabDataForPriscriptionBooking">
+            <summary>
+            Get Lab list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.LabDataSlot(VLS_API.Model.LabSlot)">
+            <summary>
+            Get Lab slot Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.GetProfileBySectionId(System.Int32)">
+            <summary>
+            Get Profile List by Section id
+            </summary>
+            <param name="SectionId">mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.ResheduleTestBooking(Howzu_API.Model.ResheduleAppointment)">
+            <summary>
+            Reshedule Appoinments
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.PendingAppointmentList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get User Pending Appointment List
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.LabList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get Lab List
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.TestList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get Test List
+            </summary>
+            <param name="pagingparametermode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.BookAppointmentusingPrescription(Howzu_API.Model.PrescriptionAppoinmentBooking)">
+            <summary>
+            Book Appointment with prescription
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.BookAppointment(Howzu_API.Model.BookAppoinment)">
+            <summary>
+            Book Appointment Manually
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.GetTestPriceandLabDetails(Howzu_API.Model.LabList)">
+            <summary>
+            Get Test price with lab details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.NonHowzuLabList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get non howzu lab list
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.AddNonHowzuLab(Howzu_API.Model.AddLab)">
+            <summary>
+            Add Non Howzu Lab
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.ManualReportPunching(Howzu_API.Model.ManualTestBooking)">
+            <summary>
+            Add previous reports
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FCMPushNotification">
+            <summary>
+            Summary description for FCMNotifications
+            </summary>
+        </member>
+    </members>
+</doc>

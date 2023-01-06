@@ -1,0 +1,101 @@
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+D:\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+D:\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csprojAssemblyReference.cache
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csprojAssemblyReference.cache
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+E:\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csprojAssemblyReference.cache
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+D:\EDrive\LocalProject\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+C:\Users\User1\Desktop\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csprojAssemblyReference.cache
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+E:\API Varsha Project\Local api Project\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.dll
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Web.config
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\appsettings.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.deps.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.runtimeconfig.dev.json
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfoInputs.cache
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.AssemblyInfo.cs
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csproj.CoreCompileInputs.cache
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.dll
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.genruntimeconfig.cache
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.pdb
+E:\API Urmila Backup\Howzu_API\Howzu_API\bin\Debug\netcoreapp2.0\Howzu_API.xml
+E:\API Urmila Backup\Howzu_API\Howzu_API\obj\Debug\netcoreapp2.0\Howzu_API.csprojAssemblyReference.cache

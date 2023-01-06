@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Howzu_API</name>
+    </assembly>
+    <members>
+        <member name="M:VLS_API.Controllers.AuthController.Signin(VLS_API.Model.Userlogin)">
+            <summary>
+            Sign in API for Howzu App User
+            </summary>
+            <param name="UserName">Mandatory</param>
+            <param name="Password">Mandatory</param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.Signout">
+            <summary>
+            Signout API used to remove device tokan
+            </summary>
+            <param name="UserId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SendOTP(System.Int64)">
+            <summary>
+            Send OTP for Mobile Verification
+            </summary>
+            <param name="Mobile">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SetNewPassword(VLS_API.Model.SetNewPassword)">
+            <summary>
+            Update Password
+            </summary>
+            <param name="model">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.ResetPassword(VLS_API.Model.ResetPassword)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.SignUp(VLS_API.Model.UserRegister)">
+            <summary>
+            Signup for HowzU App.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.UpdateDeviceToken(System.String)">
+            <summary>
+            Add Device Token for FCM Notification
+            </summary>
+            <param name="DeviceToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.AuthController.VerifiedOTP(Howzu_API.Model.VerifyOTP)">
+            <summary>
+            Verify OTP
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.DoctorMyProfile">
+            <summary>
+            Get Doctor Details By Doctor id
+            </summary>
+            <param name="id">mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.MyPatientList">
+            <summary>
+            Get My Patients List 
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AllPatientList">
+            <summary>
+            Get All Patients List 
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AddPatientToMyList(VLS_API.Model.MyPatientList)">
+            <summary>
+            Add patients in my Patient List, Patient should be "," seprated if we need to add more than 1 Patient
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.UpdateDoctor(VLS_API.Model.Doctor)">
+            <summary>
+            Update Doctor Details by doctor id
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.TestSuggestToPatient(VLS_API.Model.TestSuggest)">
+            <summary>
+            Add suggested test to patient
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.AddNote(VLS_API.Model.ReportNote)">
+            <summary>
+            Add note on shared report
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.DoctorController.UpdatePatientToDoctor(VLS_API.Model.UpdatePatientToDoctor)">
+            <summary>
+            Update Patient to Doctor 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EmployeeMyProfile">
+            <summary>
+            Get Employee Details By Employee id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.UpdateEmployee(VLS_API.Model.Employee)">
+            <summary>
+            Update Employee Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EnterPriseLabList(System.Int32)">
+            <summary>
+            Get Lab list by orgnization Id
+            </summary>
+            <param name="OrgId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.EnterPriseLabTestList(System.Int32)">
+            <summary>
+            Get EnterPrise Test List
+            </summary>
+            <param name="OrgId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.EnterpriseController.UploadReport(VLS_API.Model.UploadReport)">
+            <summary>
+            Upload users report.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PatientMyProfile">
+            <summary>
+            Get Patient Details By UserID
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UpdatePatient(VLS_API.Model.Patient)">
+            <summary>
+            Update Patient Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.MyDoctorList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get My  doctor Details
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AllDoctorList(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Fetch All Doctor List
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddDoctortoMyDoctorList(VLS_API.Model.MyDoctorList)">
+            <summary>
+            Add doctor in my doctor list, DoctorId should be "," seprated if we need to add more than 1 doctor
+            </summary>
+            <param name="model"> All field Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.RemoveDoctorFormMyDoctorList(VLS_API.Model.MyDoctorList)">
+            <summary>
+            Remove Doctor from My Doctor list. Patient Id and Doctor Id are Mandatory.
+            </summary>
+            <param name="model.PatientId.PatientId">Mandatory</param>
+            <param name="model.DoctorId.DoctorId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PatientSharedReportDoctorList">
+            <summary>
+            Get My  Shared Report Doctor List
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.PatientSharedReportList(VLS_API.Model.MyDoctorList)">
+            <summary>
+            Get Shared report details by patient id and doctor Id
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.UnshreadMyReport(System.Int32)">
+            <summary>
+            Unshared report with doctor by shared report Id
+            </summary>
+            <param name="ReportId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetRecommendationTestList">
+            <summary>
+            Get Patient recommendations test list
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetRecommendationTestDetails(System.Int32)">
+            <summary>
+            Get recommendation test details
+            </summary>
+            <param name="RcomId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.GetDoctorNote(System.Int32)">
+            <summary>
+            Get Doctor notes on shared report
+            </summary>
+            <param name="ReportId">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.PatientController.AddSharedReport(VLS_API.Model.SharedReport)">
+            <summary>
+            Shared reports with doctor
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.BanerList">
+            <summary>
+            Get baner list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AllCovidQuestionsList(System.Int32)">
+            <summary>
+            Ger Surway question list
+            </summary>
+            <param name="SurwayId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AddSurwayReport(VLS_API.Model.Surway)">
+            <summary>
+            Add surway details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.AddBMIReport(VLS_API.Model.BMIReport)">
+            <summary>
+            Add BMI Report
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.GetBMIDetails">
+            <summary>
+            Get BMI Details by UserId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.PushNotifications">
+            <summary>
+            Get User Push Notifications Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.UnreadNotificationCountData">
+            <summary>
+            Get unread Notification  count
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.SharedController.ReadNotification">
+            <summary>
+            Update notification seen status
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.MyAppointments(Howzu_API.Model.PagingParameterModel)">
+            <summary>
+            Get 
+            </summary>
+            <param name="pagingparametermodel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.CheckTestStatus(VLS_API.Model.TestStatus)">
+            <summary>
+            Check test status
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.UserMyTest">
+            <summary>
+            Get User Test list history
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.LabDataForPriscriptionBooking">
+            <summary>
+            Get Lab list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.LabDataSlot(VLS_API.Model.LabSlot)">
+            <summary>
+            Get Lab slot Details
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.GetProfileBySectionId(System.Int32)">
+            <summary>
+            Get Profile List by Section id
+            </summary>
+            <param name="SectionId">mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:VLS_API.Controllers.TestBookingController.ResheduleTestBooking(Howzu_API.Model.ResheduleAppointment)">
+            <summary>
+            Reshedule Appoinments
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FCMPushNotification">
+            <summary>
+            Summary description for FCMNotifications
+            </summary>
+        </member>
+    </members>
+</doc>
